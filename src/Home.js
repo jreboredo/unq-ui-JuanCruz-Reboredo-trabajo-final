@@ -1,5 +1,5 @@
 import React from 'react';
-/*import 'bootstrap/dist/css/bootstrap.min.css';*/
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
@@ -45,8 +45,8 @@ class Home extends React.Component {
                     <div className="container bg-white">
                         <form onSubmit={this.handleSubmit}>
                             <label>
-                                Name:
-                                <select value={this.state.value} onChange={this.handleChange}>
+                                Elija:
+                                <select value='' onChange={this.handleChange}>
                                     <option value="1">Piedra</option>
                                     <option value="2">Papel</option>
                                     <option value="3">Tijera</option>

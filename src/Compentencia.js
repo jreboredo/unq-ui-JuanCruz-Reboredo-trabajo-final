@@ -1,5 +1,5 @@
 import React from 'react';
-/*import 'bootstrap/dist/css/bootstrap.min.css';*/
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
@@ -23,6 +23,9 @@ class Compentencia extends React.Component {
 
     handleSubmit() {
         this.competir()
+    }
+    goHome(){
+        this.props.history.push('/')
     }
     competir(){
         switch (this.user) {
@@ -143,6 +146,9 @@ class Compentencia extends React.Component {
 
                 </div>
                 <div className="container bg-white">
+                </div>
+                <div>
+                    <button type="button" className="btn btn-outline-success my-2 my-sm-0n " onClick={() => this.goHome()}> <span className="oi oi-book" />Volver a Jugar</button>
                 </div>
 
 
