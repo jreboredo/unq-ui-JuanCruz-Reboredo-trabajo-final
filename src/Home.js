@@ -56,7 +56,7 @@ class Home extends React.Component {
         this.props.history.push('/reglas')
     }
     competir(){
-        if(this.state.value != '') {
+        if(this.state.value != '' || this.state.value != 0) {
             this.props.history.push(`/competencia/${this.state.value}`)
         }
     }
@@ -82,10 +82,8 @@ class Home extends React.Component {
                     </div>
                     <form onSubmit={this.handleSubmit}>
                             <label>
-                                <div>
-                                Seleccione su Personaje:
-                                </div>
-                                <select value={this.state.value} onChange={this.handleChange}>
+                                <select className="custom-select" value={this.state.value} onChange={this.handleChange}>
+                                    <option value="0" >Seleccione su Personaje</option>
                                     <option value="1">Piedra</option>
                                     <option value="2">Papel</option>
                                     <option value="3">Tijera</option>
@@ -103,6 +101,9 @@ class Home extends React.Component {
                             <input type="submit"  className="btn btn-outline-success my-2 my-sm-0n " value="Competir" />
                             </div>
                         </form>
+                    <div>
+                        <h3>Usted ha ganado {this.victorias} veces.</h3>
+                    </div>
                 </div>
 
             </>
