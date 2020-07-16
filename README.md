@@ -1,4 +1,4 @@
-#Trabajo Final Integrador - Juan Cruz Reboredo - Interfases de Usuario UNQ 2020
+<h1>Trabajo Final Integrador - Juan Cruz Reboredo - Interfases de Usuario UNQ 2020</h1>
 
 A continuacion se detalla los pasos para descargar e instalar la aplicacion para que pueda ser ejecutada.
 
