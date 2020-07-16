@@ -72,7 +72,9 @@ class Reglas extends React.Component {
                             <li>y como siempre, Piedra aplasta a Tijera</li>
                     </ul>
                         <p>A continuacion, dejamos un Video de Sheldon Cooper explicando el juego en la famosa serie "The Bing Bang Theory:</p>
-                        <iframe  width="560" height="315" className="video-player" src="https://www.youtube.com/embed/O5j4RGw6fHQ" frameBorder="0" allowFullScreen />
+                        <div class="container">
+                        <iframe  width="560" height="315" className="embed-responsive" src="https://www.youtube.com/embed/O5j4RGw6fHQ" frameBorder="0" allowFullScreen />
+                    </div>
                     </div>
                 </div>
 
