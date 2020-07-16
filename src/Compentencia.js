@@ -15,7 +15,7 @@ import empate from './dist/empate.png'
 class Compentencia extends React.Component {
     constructor(props) {
         super(props);
-        this.maquina = 1//Math.trunc(1 + (Math.random() * 4));
+        this.maquina = Math.trunc(1 + (Math.random() * 4));
         this.state = {
             value: props.match.params.seleccion,
             imgUser: '',
@@ -39,105 +39,150 @@ class Compentencia extends React.Component {
     competir(){
         switch (this.state.value) {
             case '1':
-                this.state.imgUser = piedra
                 switch (this.maquina) {
                     case 1:
-                       this.state.imgPC = piedra
-                       this.state.imgWinner = empate;
-                       break;
+                        this.state.imgUser = piedra
+                        this.state.imgPC = piedra
+                        this.state.imgWinner = empate;
+                        break;
                     case 2:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = piedra
+                        this.state.imgPC = papel
+                        this.state.imgWinner = lose
                         break;
                     case 3:
+                        this.state.imgUser = piedra
+                        this.state.imgPC = tijera
                         this.state.imgWinner = win
                         break;
                     case 4:
+                        this.state.imgUser = piedra
+                        this.state.imgPC = lagarto
                         this.state.imgWinner = win
                         break;
                     case 5:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = piedra
+                        this.state.imgPC = spock
+                        this.state.imgWinner = lose
                         break;
                 }
+                break;
             case '2':
-                this.state.imgUser = papel
                 switch (this.maquina) {
                     case 1:
+                        this.state.imgUser = papel
                         this.state.imgPC = piedra
                         this.state.imgWinner = win
                         break;
                     case 2:
+                        this.state.imgUser = papel
+                        this.state.imgPC = papel
                         this.state.imgWinner = empate;
                         break;
                     case 3:
+                        this.state.imgUser = papel
+                        this.state.imgPC = tijera
                         this.state.imgWinner = lose
                         break;
                     case 4:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = papel
+                        this.state.imgPC = lagarto
+                        this.state.imgWinner = lose
                         break;
                     case 5:
+                        this.state.imgUser = papel
+                        this.state.imgPC = spock
                         this.state.imgWinner = win
                         break;
                 }
+                break;
             case '3':
-                this.state.imgUser = tijera
                 switch (this.maquina) {
                     case 1:
+                        this.state.imgUser = tijera
                         this.state.imgPC = piedra
-                        this.state.imgWinner =  lose
+                        this.state.imgWinner = lose
                         break;
                     case 2:
+                        this.state.imgUser = tijera
+                        this.state.imgPC = papel
                         this.state.imgWinner = win
                         break;
                     case 3:
+                        this.state.imgUser = tijera
+                        this.state.imgPC = tijera
                         this.state.imgWinner = empate;
                         break;
                     case 4:
+                        this.state.imgUser = tijera
+                        this.state.imgPC = lagarto
                         this.state.imgWinner = win
                         break;
                     case 5:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = tijera
+                        this.state.imgPC = spock
+                        this.state.imgWinner = lose
                         break;
                 }
+                break;
             case '4':
-                this.state.imgUser = lagarto
                 switch (this.maquina) {
                     case 1:
+                        this.state.imgUser = lagarto
                         this.state.imgPC = piedra
-                        this.state.imgWinner =  lose
+                        this.state.imgWinner = lose
                         break;
                     case 2:
+                        this.state.imgUser = lagarto
+                        this.state.imgPC = papel
                         this.state.imgWinner = win
                         break;
                     case 3:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = lagarto
+                        this.state.imgPC = tijera
+                        this.state.imgWinner = lose
                         break;
                     case 4:
+                        this.state.imgUser = lagarto
+                        this.state.imgPC = lagarto
                         this.state.imgWinner = empate;
                         break;
                     case 5:
+                        this.state.imgUser = lagarto
+                        this.state.imgPC = spock
                         this.state.imgWinner = win
                         break;
                 }
+                break;
             case '5':
-                this.state.imgUser = spock
                 switch (this.maquina) {
                     case 1:
+                        this.state.imgUser = spock
                         this.state.imgPC = piedra
                         this.state.imgWinner = win
                         break;
                     case 2:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = spock
+                        this.state.imgPC = papel
+                        this.state.imgWinner = lose
                         break;
                     case 3:
+                        this.state.imgUser = spock
+                        this.state.imgPC = tijera
                         this.state.imgWinner = win
                         break;
                     case 4:
-                        this.state.imgWinner =  lose
+                        this.state.imgUser = spock
+                        this.state.imgPC = lagarto
+                        this.state.imgWinner = lose
                         break;
                     case 5:
+                        this.state.imgUser = spock
+                        this.state.imgPC = spock
                         this.state.imgWinner = empate;
                         break;
                 }
+                break;
         }
     }
     render() {
@@ -146,6 +191,9 @@ class Compentencia extends React.Component {
                 <nav className= "navbar navbar-dark bg-dark ">
                     <div>
                         <img src={Logo} width="150" />
+                    </div>
+                    <div className="form-inline">
+                        <button type="button" className="btn btn-outline-success my-2 my-sm-0n " onClick={() => this.goHome()}> <span className="oi oi-book" />Volver a Jugar</button>
                     </div>
                 </nav>
                 <div className='container bg-white'>
@@ -167,9 +215,6 @@ class Compentencia extends React.Component {
                             <img src={this.state.imgPC} width="150" />
                         </div>
                     </div>
-                <div>
-                    <button type="button" className="btn btn-outline-success my-2 my-sm-0n " onClick={() => this.goHome()}> <span className="oi oi-book" />Volver a Jugar</button>
-                </div>
                 </div>
 
             </>

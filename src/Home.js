@@ -52,8 +52,13 @@ class Home extends React.Component {
     handleSubmit() {
         this.competir()
     }
+    viewRules(){
+        this.props.history.push('/reglas')
+    }
     competir(){
-        this.props.history.push(`/competencia/${this.state.value}`)
+        if(this.state.value != '') {
+            this.props.history.push(`/competencia/${this.state.value}`)
+        }
     }
     render() {
         return (
@@ -66,7 +71,7 @@ class Home extends React.Component {
 
                     </div>
                     <div className="form-inline">
-                        <button type="button" className="btn btn-outline-success my-2 my-sm-0n "> <span className="oi oi-book" />Reglas del Juego</button>
+                        <button type="button" className="btn btn-outline-success my-2 my-sm-0n "  onClick={() => this.viewRules()}> <span className="oi oi-book"/>Reglas del Juego</button>
                     </div>
                 </nav>
                 <div className='container bg-white'>
