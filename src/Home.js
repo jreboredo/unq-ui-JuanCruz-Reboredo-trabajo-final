@@ -1,14 +1,23 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Logo from './dist/logo.png'
+import piedra from './dist/1.jfif'
+import papel from './dist/2.png'
+import tijera from './dist/3.png'
+import lagarto from './dist/4.jfif'
+import spock from './dist/5.png'
+import choose from './dist/choose.png'
 
 
 
 class Home extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
+        this.victorias = 0
         this.state = {
-            value: ''};
+            value: '',
+            img: choose};
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -17,6 +26,27 @@ class Home extends React.Component {
     }
     handleChange(event) {
         this.setState({ value: event.target.value });
+        switch (event.target.value) {
+            case '1':
+                this.setState({img: piedra});
+                break;
+            case '2':
+                this.setState({img:papel});
+                break;
+            case '3':
+                this.setState({img: tijera});
+                break;
+            case '4':
+                this.setState({img: lagarto});
+                break;
+            case '5':
+                this.setState({img: spock});
+                break;
+            default:
+                this.setState({img: choose});
+                break;
+        }
+
     }
 
     handleSubmit() {
@@ -30,23 +60,27 @@ class Home extends React.Component {
             <>
                 <nav className= "navbar navbar-dark bg-dark ">
                     <div>
+                        <img src={Logo} width="150" />
+                    </div>
+                    <div className="btn-toolbar">
+
                     </div>
                     <div className="form-inline">
-                        <input
-                            className="form-control"
-                            placeholder="Buscar"
-                            type="text"
-                            onChange={event => this.handleChange(event)}
-                        />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={() => this.handleSubmit()}>Buscar</button>
+                        <button type="button" className="btn btn-outline-success my-2 my-sm-0n "> <span className="oi oi-book" />Reglas del Juego</button>
                     </div>
                 </nav>
-<div><h1>Selecciono: {this.state.value}</h1></div>
-                    <div className="container bg-white">
-                        <form onSubmit={this.handleSubmit}>
+                <div className='container bg-white'>
+                    <div>
+                        <h1>
+                            Bienvenido a Piedra, Papel, Tijera, Lagarto o Spock
+                        </h1>
+                    </div>
+                    <form onSubmit={this.handleSubmit}>
                             <label>
-                                Elija:
-                                <select value='' onChange={this.handleChange}>
+                                <div>
+                                Seleccione su Personaje:
+                                </div>
+                                <select value={this.state.value} onChange={this.handleChange}>
                                     <option value="1">Piedra</option>
                                     <option value="2">Papel</option>
                                     <option value="3">Tijera</option>
@@ -54,9 +88,17 @@ class Home extends React.Component {
                                     <option value="5">Spock</option>
                                 </select>
                             </label>
-                            <input type="submit" value="Competir" />
+                            <div>
+                                <p>Usted Selecciono:</p>
+                                <div>
+                                    <img src={this.state.img} width="150" />
+                                </div>
+                            </div>
+                            <div>
+                            <input type="submit"  className="btn btn-outline-success my-2 my-sm-0n " value="Competir" />
+                            </div>
                         </form>
-                    </div>
+                </div>
 
             </>
         );
