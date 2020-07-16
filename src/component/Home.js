@@ -57,6 +57,8 @@ class Home extends React.Component {
     competir(){
         if(this.state.value != '' || this.state.value != 0) {
             this.props.history.push(`/competencia/${this.state.value}`)
+        }else{
+            alert("Debe seleccionar un Personaje")
         }
     }
     render() {
