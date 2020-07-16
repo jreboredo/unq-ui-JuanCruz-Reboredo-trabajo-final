@@ -1,15 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Logo from "./dist/logo.png";
-import piedra from './dist/1.jfif'
-import papel from './dist/2.png'
-import tijera from './dist/3.png'
-import lagarto from './dist/4.jfif'
-import spock from './dist/5.png'
-import win from './dist/win.jfif'
-import lose from './dist/lose.png'
-import empate from './dist/empate.png'
+import '../dist/css/App.css';
+import Logo from "../dist/logo.png";
+import piedra from '../dist/1.jfif'
+import papel from '../dist/2.png'
+import tijera from '../dist/3.png'
+import lagarto from '../dist/4.jfif'
+import spock from '../dist/5.png'
+import win from '../dist/win.jfif'
+import lose from '../dist/lose.png'
+import empate from '../dist/empate.png'
 
 
 class Compentencia extends React.Component {

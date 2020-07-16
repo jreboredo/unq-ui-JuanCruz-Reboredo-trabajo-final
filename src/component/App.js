@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import '../dist/css/App.css';
 import Home from "./Home";
 import Competencia from "./Compentencia";
 import Reglas from "./Reglas";
