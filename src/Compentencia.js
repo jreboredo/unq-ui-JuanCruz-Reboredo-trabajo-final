@@ -28,7 +28,6 @@ class Compentencia extends React.Component {
     componentDidMount() {
     }
     handleChange(event) {
-        //this.setState({ value: event.target.value });
     }
     handleSubmit() {
         this.competir()

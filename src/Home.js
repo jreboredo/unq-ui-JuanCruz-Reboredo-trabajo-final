@@ -14,7 +14,6 @@ import choose from './dist/choose.png'
 class Home extends React.Component {
     constructor(props) {
         super(props)
-        this.victorias = 0
         this.state = {
             value: '',
             img: choose};
