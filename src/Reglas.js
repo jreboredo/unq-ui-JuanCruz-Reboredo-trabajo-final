@@ -53,8 +53,26 @@ class Reglas extends React.Component {
                 <div className='container bg-white'>
                     <div>
                         <h1>
-                            Bienvenido a Piedra, Papel, Tijera, Lagarto o Spock
+                            Reglamento del Juego
                         </h1>
+                    </div>
+                    <div className='container bg-white'>
+                    <p>El juego consta de las mismas Reglas que el "Piedra, papel o tijera" pero con mas casos.
+                    A continuacion se detallan los posibles casos:</p>
+                        <ul>
+                            <li>Tijera corta a Papel</li>
+                            <li>Tijera corta a Papel</li>
+                            <li>Piedra aplasta a Lagarto</li>
+                            <li>Lagarto envenena a Spock</li>
+                            <li>Spock rompe a Tijera</li>
+                            <li>Tijera decapita a Lagarto</li>
+                            <li>Lagarto devora a Papel</li>
+                            <li>Papel desautoriza a Spock</li>
+                            <li>Spock vaporiza a Piedra</li>
+                            <li>y como siempre, Piedra aplasta a Tijera</li>
+                    </ul>
+                        <p>A continuacion, dejamos un Video de Sheldon Cooper explicando el juego en la famosa serie "The Bing Bang Theory:</p>
+                        <iframe  width="560" height="315" className="video-player" src="https://www.youtube.com/embed/O5j4RGw6fHQ" frameBorder="0" allowFullScreen />
                     </div>
                 </div>
 
