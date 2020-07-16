@@ -101,9 +101,6 @@ class Home extends React.Component {
                             <input type="submit"  className="btn btn-outline-success my-2 my-sm-0n " value="Competir" />
                             </div>
                         </form>
-                    <div>
-                        <h3>Usted ha ganado {this.victorias} veces.</h3>
-                    </div>
                 </div>
 
             </>

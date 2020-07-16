@@ -54,11 +54,13 @@ class Compentencia extends React.Component {
                         this.state.imgUser = piedra
                         this.state.imgPC = tijera
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 4:
                         this.state.imgUser = piedra
                         this.state.imgPC = lagarto
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 5:
                         this.state.imgUser = piedra
@@ -73,6 +75,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = papel
                         this.state.imgPC = piedra
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 2:
                         this.state.imgUser = papel
@@ -93,6 +96,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = papel
                         this.state.imgPC = spock
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                 }
                 break;
@@ -107,6 +111,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = tijera
                         this.state.imgPC = papel
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 3:
                         this.state.imgUser = tijera
@@ -117,6 +122,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = tijera
                         this.state.imgPC = lagarto
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 5:
                         this.state.imgUser = tijera
@@ -136,6 +142,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = lagarto
                         this.state.imgPC = papel
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 3:
                         this.state.imgUser = lagarto
@@ -151,6 +158,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = lagarto
                         this.state.imgPC = spock
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                 }
                 break;
@@ -160,6 +168,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = spock
                         this.state.imgPC = piedra
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 2:
                         this.state.imgUser = spock
@@ -170,6 +179,7 @@ class Compentencia extends React.Component {
                         this.state.imgUser = spock
                         this.state.imgPC = tijera
                         this.state.imgWinner = win
+                        App.wins = App.wins + 1
                         break;
                     case 4:
                         this.state.imgUser = spock

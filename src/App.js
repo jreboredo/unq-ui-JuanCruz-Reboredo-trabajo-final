@@ -9,7 +9,7 @@ import Reglas from "./Reglas";
 
 
 function App() {
-  return (
+    return (
       <>
         <BrowserRouter>
           <Switch>
