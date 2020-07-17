@@ -15,7 +15,7 @@ import empate from '../dist/empate.png'
 class Compentencia extends React.Component {
     constructor(props) {
         super(props);
-        this.maquina = Math.trunc(1 + (Math.random() * 4));
+        this.maquina = Math.trunc(1 + (Math.random() * 5));
         this.state = {
             value: props.match.params.seleccion,
             imgUser: '',
