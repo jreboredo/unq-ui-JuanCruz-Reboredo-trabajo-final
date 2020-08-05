@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9857b091-1a4f-4384-bc7f-566d6726a429" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Juan Reboredo &lt;juanrebo.jcr@gmail.com&gt;" />
+        <option value="Juan}" />
+        <option value="Juan Reboredo" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ehCRpobZeCO9JZNW00kqFth0g1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/git/GGServicio" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nevum\Google Drive\Facultad\Interfases\Integrador\src" />
+      <recent name="C:\Users\Nevum\Google Drive\Facultad\Interfases\Integrador\src\component" />
+      <recent name="C:\Users\Nevum\Google Drive\Facultad\Interfases\Integrador\src\dist\css" />
+      <recent name="C:\Users\Nevum\Google Drive\Facultad\Interfases\Integrador\src\dist" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9857b091-1a4f-4384-bc7f-566d6726a429" name="Default Changelist" comment="" />
+      <created>1594764431976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594764431976</updated>
+      <workItem from="1594764433433" duration="3316000" />
+      <workItem from="1594768393564" duration="45000" />
+      <workItem from="1594833789428" duration="24265000" />
+      <workItem from="1594921797245" duration="3733000" />
+      <workItem from="1594932190343" duration="163000" />
+      <workItem from="1594998880832" duration="587000" />
+      <workItem from="1595263426035" duration="859000" />
+      <workItem from="1595358079096" duration="236000" />
+      <workItem from="1595513231132" duration="601000" />
+    </task>
+    <task id="LOCAL-00001" summary="init repo">
+      <created>1594766733383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594766733383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init repo">
+      <created>1594768139363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594768139363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Seleccion de Usuario y Pantalla de Compentencia">
+      <created>1594849106024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594849106024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Swicht's de desiciones por sobre ganador">
+      <created>1594852684241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594852684241</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Diseño Responsive">
+      <created>1594857145354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594857145354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Agregado de Imagenes y Logo">
+      <created>1594865919988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594865919988</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix Imagenes y modelado de Reglas">
+      <created>1594868136536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594868136536</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix de Dropdown list">
+      <created>1594868630789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594868630789</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Agregado de Reglas">
+      <created>1594869537177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594869537177</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Reproductor Responsive">
+      <created>1594869684767</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594869684767</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixes esteticos">
+      <created>1594870303304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594870303304</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix de correcion de contador">
+      <created>1594870382657</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594870382657</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixes Esteticos">
+      <created>1594871150952</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594871150952</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Estetica del Repo">
+      <created>1594871585601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594871585601</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Armado de README.md">
+      <created>1594924039942</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594924039942</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix estetico de README.md">
+      <created>1594924158031</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594924158031</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Alerta al no seleccionar un Personaje">
+      <created>1594932326390</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594932326390</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fix de Algoritmo random de la maquina">
+      <created>1594999542779</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594999542779</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix de Ortografia en Reglas">
+      <created>1595263890718</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595263890718</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init repo" />
+    <MESSAGE value="Seleccion de Usuario y Pantalla de Compentencia" />
+    <MESSAGE value="Swicht's de desiciones por sobre ganador" />
+    <MESSAGE value="Diseño Responsive" />
+    <MESSAGE value="Agregado de Imagenes y Logo" />
+    <MESSAGE value="Fix Imagenes y modelado de Reglas" />
+    <MESSAGE value="Fix de Dropdown list" />
+    <MESSAGE value="Agregado de Reglas" />
+    <MESSAGE value="Reproductor Responsive" />
+    <MESSAGE value="Fixes esteticos" />
+    <MESSAGE value="Fix de correcion de contador" />
+    <MESSAGE value="Fixes Esteticos" />
+    <MESSAGE value="Estetica del Repo" />
+    <MESSAGE value="Armado de README.md" />
+    <MESSAGE value="Fix estetico de README.md" />
+    <MESSAGE value="Alerta al no seleccionar un Personaje" />
+    <MESSAGE value="Fix de Algoritmo random de la maquina" />
+    <MESSAGE value="Fix de Ortografia en Reglas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix de Ortografia en Reglas" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594768172800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594768172800" />
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1595263889368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1595263889368" />
+    <state x="454" y="118" key="FileChooserDialogImpl" timestamp="1595513839005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1595513839005" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1594767953884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594767953884" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1594767953884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594767953884" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1594767953884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594767953884" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1594767953884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594767953884" />
+    <state x="424" y="66" key="RollbackChangesDialog" timestamp="1594870904629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="66" key="RollbackChangesDialog/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594870904629" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595263893078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1595263893078" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595513537577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1595513537577" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1594923678847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1594923678847" />
+  </component>
+</project>
